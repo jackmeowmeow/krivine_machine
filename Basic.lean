@@ -1,4 +1,5 @@
---! This file defines a simple expression language and implements the Krivine machine to evaluate expressions in that language. The language includes basic arithmetic operations, boolean operations, and function application.
+--! This file defines a simple expression language and implements the Krivine machine to evaluate expressions in that language. 
+--! The language includes basic arithmetic operations, boolean operations, and functions.
 
 inductive Exp where
   | nil
